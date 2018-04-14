@@ -1,0 +1,28 @@
+{
+  "name": "lametric-cloud",
+  "version": "1.0.0",
+  "description": "An asynchronous client library for the cloud API of LaMetric Time.",
+  "keywords": [
+    "lametric"
+  ],
+  "author": "Julien Gobillot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgobillot/lametric-cloud.git"
+  },
+  "license": "MIT",
+  "main": "lib/lametric-cloud.js",
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && mocha"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5",
+    "nock": "^9.2.3"
+  },
+  "dependencies": {
+    "deep-extend": "^0.5.0",
+    "request": "^2.85.0"
+  }
+}

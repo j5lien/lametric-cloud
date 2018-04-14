@@ -1,0 +1,23 @@
+npm-debug.log
+node_modules
+
+## just in .npmignore
+.eslintrc.js
+.travis.yml
+CHANGELOG.md
+CONTRIBUTING.md
+docs/
+examples/
+test/
+
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
